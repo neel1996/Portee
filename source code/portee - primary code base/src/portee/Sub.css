@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Feb, 2017, 6:30:52 PM
+    Author     : SVNPC
+*/
+.root
+{
+    -fx-background-image: url('bg.jpg');
+    -fx-background-repeat: none;
+    -fx-background-size: 100% 100%;
+}
+
+.progress-bar > .bar {
+    -fx-background-insets: 2 0 3 0;
+    -fx-padding: 0.3em;
+    -fx-margin: 0px;
+}
+
+.progress-bar > .track
+{
+    -fx-background-color: none;
+}
+
+.label
+{
+    -fx-text-fill: #FFF;
+    -fx-font-size: 15px;
+}
+
+.lab, .lab_
+{
+    -fx-font-size: 20px;
+}

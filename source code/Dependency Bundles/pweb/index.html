@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<script src="jquery-3.1.1.js"></script>
+<meta charset="utf-8">
+<title>portee</title>
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body onLoad="loadMe(this.id)">
+
+	<script type="text/javascript" src="main.js"></script>
+	
+	
+	<div class="hidden" id="hidden">
+		<center>
+		<div class="form">
+			<form method="post" action="http://localhost/reg.php">
+			<span style="font-family: arial;font-size: 30px;float:right;color:#FFF;margin: 0px;cursor: pointer" onClick="closeMe()">X</span>
+				
+				<div class="form-head" id="formhead">
+					If you have already registered, then just click "Download package" button
+				</div>
+				
+				<h2>REGISTER</h2>
+				
+				<input id="ftext" type="text" name="fname" autocomplete="off" placeholder="Enter your name *" required onFocus="textOn(this.id)"><br>
+				<input id="etext" type="text" name="email" autocomplete="off" placeholder="Enter your email *" required onFocus="textOn(this.id)"><br>
+				<input id="ptext" type="password" name="pass" autocomplete="off" placeholder="Password *" required onFocus="textOn(this.id)"><br>
+				<input id="mtext" type="text" name="mob" maxlength="10" autocomplete="off" placeholder="Mobile number *" required onFocus="textOn(this.id)"><br>
+				
+				<button name="submit" id="sub" value="Register">Register</button><br>
+			
+			</form>
+			<a href="index.html" download><button id="abort" name="abort">Download package</button></a>
+		</div>
+		</center>
+	</div>
+	
+    <header id="header-id">
+	    <img src="r.png" width="30px" height="30px">
+		<div id="title-container">
+			<center>Portee</center>
+		</div>
+	</header>
+	
+	<center>
+	<div class="poster" id="poster">
+		<img src="fcp_hero_large.png" alt="poster">
+	</div>
+	
+	<div id="main">
+		This is a sample website for registering the user info. The user info will be encrypted and stored in a centralised databse far far away from the galaxy. If you try to install the software, it will ask for your registered info initially, then the successive things that happen are confeditial to the CORE.
+	</div>
+	
+	<div id="b-holder">
+		<div id="button-1" onClick="buy(this.id)">Buy Software</div>
+		<div id="button-2">Download 3-day trial</div>
+	</div>
+	
+	
+	
+</body>
+</html>

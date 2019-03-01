@@ -1,0 +1,179 @@
+@font-face
+{
+	font-family: roboto;
+	src: url(ROBOTO-LIGHT.TTF);
+}
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background: #2E2E2E;
+}
+
+::selection
+{
+	background-color: aqua;
+}
+
+header
+{
+	width: 100%;
+	background:  #3B3B3B ;
+	display: inline-flex;
+	box-shadow: 1px 1px 5px 0.5px rgba(255,255,255,0.55);
+}
+
+header img
+{
+	margin-top: 35px;
+	margin-left: 50px;
+	-webkit-transition:0.5s;
+	transition: 0.5s;
+}
+
+header img:hover
+{
+	-webkit-transition:0.5s;	
+	transition: 0.5s;
+	border-radius: 8px;
+	border: 0.2px solid rgba(255,255,255,0.18);
+}
+
+#title-container
+{
+	text-align: center;
+	font-family: roboto;
+	font-stretch: expanded;
+	font-size: 50px;
+	margin-top: 20px;
+	color: #FFF;
+	padding-bottom: 15px;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+#title-container:hover
+{
+	color: darkgray;
+}
+
+#poster
+{
+	margin-top: 50px;
+}
+
+#poster img
+{
+	width: 30%;
+}
+
+.form
+{
+	background: #24313C;
+	width: 75%;
+	padding:60px;
+	border-radius: 8px;
+	margin-top: 120px;
+}
+
+.form-head
+{
+	font-family: verdana;
+	color:#1AB188;
+	font-size: 20px;
+	width:40%;
+}
+
+h2
+{
+	font-family: roboto;
+	font-size: 40px;
+	color:#FFF;
+}
+
+input[type="text"], input[type="password"]
+{
+	border-radius: 5px;
+	width: 350px;
+	height: 40px;
+	margin-top: 20px;
+	padding: 2px;
+	padding-left: 10px;
+	background: rgba(0,0,0,0.00);
+	border: solid 1px #1AB188;
+	color: aquamarine;
+	font-size: 20px;
+}
+
+button
+{
+	margin-top: 50px;
+	width: 15%;
+	height: 50px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: #FFF;
+	font-family: roboto;
+	font-size: 20px;
+	background: #1AB188;
+}
+
+#abort
+{
+	margin-top: 50px;
+	width: 50%;
+	height: 50px;
+	outline: none;
+	border-radius: 5px;
+	background: rgba(0,163,255,1.00);
+	border: solid 1px rgba(0,163,255,1.00);
+	color: #FFF;
+	font-family: roboto;
+	font-size: 20px;
+}
+
+#main
+{
+	margin-top: 30px;
+	font-size: 25px;
+	width:50%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#fff;
+}
+
+#b-holder
+{
+	display: inline-flex;
+	margin-top: 60px;
+	text-align: center;
+}
+
+#button-1, #button-2
+{
+	padding: 10px;
+	font-family: roboto;
+	color:#FFF;
+	font-size: 20px;
+	cursor: pointer;
+	width: 200px;
+	margin: 20px;
+	border-radius: 8px;
+	background: #00BDF7;
+}
+
+#button-1:hover, #button-2:hover
+{
+	background: #00C7FD;
+}
+
+.hidden
+{
+	background: rgba(0,0,0,0.58);
+	position: absolute;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	display: none;
+}

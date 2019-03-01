@@ -1,0 +1,62 @@
+.root
+{
+    -fx-background-color: #494949;
+}
+
+.label
+{
+    -fx-font-size: 30px;
+    -fx-text-fill: #1492bc;
+    -fx-font-family: verdana;
+}
+
+.text-field
+{
+    -fx-text-fill: #1492BC;
+    -fx-background-color: none;
+    -fx-border-insets: 0;
+    -fx-border-width: 0 0 2px;
+    -fx-border-color: #1492CC;
+    -fx-font-size: 20px;
+}
+
+.sub
+{
+    -fx-background-color: #1492BC;
+    -fx-padding: 10px;
+    -fx-outline: none;
+    -fx-border-radius: 5px;
+    -fx-border-color: #1492CC;
+    -fx-text-fill: #494949;
+}
+
+.x-class
+{
+    -fx-background-color: #1492BC;
+    -fx-padding: 10px;
+    -fx-outline: none;
+    -fx-border-radius: 5px;
+    -fx-border-color: #1492CC;
+    -fx-text-fill: #494949;
+}
+
+.sub:hover
+{
+    -fx-background-color: none;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: #1492CC;
+    -fx-text-fill: #1492BC;
+}
+
+.x-class:hover
+{
+    -fx-background-color: none;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-color: #1492CC;
+    -fx-text-fill: #1492BC;
+}
+
+.msg-class{
+    -fx-text-fill:lightcoral;
+    -fx-font-size: 20px;
+}

@@ -1,0 +1,43 @@
+.root
+{
+    -fx-background-color: #494949;
+    -fx-background-repeat: none;
+    -fx-background-size: 100% 100%;
+}
+
+
+.label_1
+{
+    -fx-background-color: #1492BC;
+    -fx-padding: 50px;
+    -fx-outline: none;
+    -fx-border-color: #1492CC;
+    -fx-text-fill: #494949;
+    -fx-font-size: 20px;
+    -fx-text-align:center;
+}
+
+.label_1:hover{
+    -fx-background-color: none;
+    -fx-border-color: #1492CC;
+    -fx-text-fill: #1492BC;
+}
+
+.active{
+    -fx-background-color: none;
+    -fx-text-fill: #1492BC;
+}
+
+.active_1{
+    -fx-background-color: none;
+    -fx-text-fill: #1492BC;
+}
+
+.text{
+    -fx-broder-radius: 5px;
+}
+
+.about{
+    -fx-background: none;
+    -fx-text-fill: #1492BC;
+}

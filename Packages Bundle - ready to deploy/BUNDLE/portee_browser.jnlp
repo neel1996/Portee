@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="portee_browser.jnlp">
+  <information>
+    <title>portee</title>
+    <vendor>SVNPC</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\com.mysql.jdbc_5.1.5.jar" size="676712" download="eager" />
+    <jar href="portee.jar" size="28325953" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="portee.Splash"  name="portee" >
+  </applet-desc>
+  <update check="background"/>
+</jnlp>
